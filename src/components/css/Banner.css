@@ -1,0 +1,43 @@
+.banner{
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+   background-size: cover;
+   background-position: center center; 
+   position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner .banner-info{
+    /* color:aliceblue; */
+    /* background-color: #fff; */
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+    height: auto;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.banner .banner-info h1{
+    position:relative;
+    font-size:3.8rem;
+    color:lightgoldenrodyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner .banner-info a{
+    position:relative;
+    text-decoration: none;
+    background:#000 ;
+    color:#fff;
+    text-shadow:0px 0px 2px rgba(0,0,0,0.5) ;
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: 750;
+    transition: 0.2s linear;
+}
+
+.banner .banner-info a:hover{
+    background: #b1b0b0;
+}

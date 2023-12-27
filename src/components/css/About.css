@@ -1,0 +1,71 @@
+.about{
+    position:relative;
+    height:100%;
+    width:100%;
+    padding:10px 0;
+}
+
+.about h1.heading{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align:center;
+    font-size:2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.about p.para{
+    position:relative;
+    width:100%;
+    height:auto;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large ;
+    padding:10px 0;
+    color: #444;
+}
+
+.about .services-cards{
+    position:relative;
+    height:300px;
+    width:50%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:15px;
+    margin:auto;
+}
+
+.about .services-cards .card{
+    position: relative;
+    height:100%;
+    width:100%;
+    border:1px solid #444;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about .services-cards .card i{
+    position: relative;
+    font-size: 4.5rem;
+    color:rgb(255, 0, 0);
+}
+
+.about .services-cards .card h1{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;  
+}
+
+.about .services-cards .card p{
+    position: relative;
+    font-size: 1rem;
+    color:#444;
+    font-weight:550; 
+}
